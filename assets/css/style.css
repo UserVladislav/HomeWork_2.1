@@ -157,7 +157,7 @@ color: #86878B;
 /* hw3*/
 
 .city {
-    background-image: url("/images/image.png");
+    background-image: url("./images/image.png");
     background-repeat: no-repeat;
     height: 358px;
     background-size: cover;
