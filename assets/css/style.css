@@ -169,6 +169,10 @@ color: #86878B;
             background-size: cover;
 }
 
+.city:hover{
+    background-color: rgba(0,0,0,0.5);;
+}
+
 .city::after {
     content: '';
     display: block;
@@ -180,7 +184,7 @@ color: #86878B;
     z-index: 0;
 }
 
-.h2 {
+.city__h2 {
     font-size: 24px;
     font-weight: 400;
     text-transform: uppercase;
@@ -192,12 +196,12 @@ color: #86878B;
     z-index: 2;
 }
 
-.separator {
+.city__separator {
     width: 142;
     text-align: center;
 }
 
-.h5 {
+.city__h5 {
     z-index: 2;
     font-size: 14px;
     font-weight: 400;
@@ -207,7 +211,7 @@ color: #86878B;
     padding-top: 14px;
 }
 
-.Butten {
+.city__Butten {
     min-width: 270px;
     height: 60px;
     padding-top: 20px;
@@ -231,7 +235,7 @@ color: #86878B;
     box-sizing: border-box;
 }
 
-.Butten:hover{
+.city__Butten:hover{
     background-color: rgba(0,0,0,0);;
 }
 
@@ -239,6 +243,6 @@ a{
     text-decoration: none;
 }
 
-.Download {
+.city__DownloadDownload {
     padding-top: 30px;
 }
