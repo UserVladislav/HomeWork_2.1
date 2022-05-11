@@ -88,6 +88,7 @@ color: #86878B;
 
 
 .section-head__title1{
+    color: #FFFFFF;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 36px;
@@ -97,7 +98,10 @@ color: #86878B;
     padding-right: 16px;
     padding-left: 20px;
     padding-bottom: 44px;
+}
 
+.section-head_light .section-head__title {
+    color: #FFFFFF;
 }
 
 .section-head__solid {
@@ -106,12 +110,20 @@ color: #86878B;
     margin: 0 auto;
 }
 
+.section-head_light .section-head__solid {
+    color: #FFFFFF;
+}
+
 .section-head__subtitle {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #86878B;
     padding-top: 36px;
+}
+
+.section-head_light .section-head__subtitle {
+    color: #FFFFFF;
 }
 
 @media screen and (min-width: 320px){
@@ -156,7 +168,7 @@ color: #86878B;
 
 /* hw3*/
 
-.city {
+/* .city {
     background-image: url("./images/image.png");
     background-repeat: no-repeat;
     height: 358px;
@@ -166,7 +178,7 @@ color: #86878B;
     align-items: center;
     z-index: 0;
     -webkit-background-size: cover;
-            background-size: cover;
+    background-size: cover;
 }
 
 .city:hover{
@@ -181,7 +193,7 @@ color: #86878B;
     height: 358px;
     top: 0;
     left: 0;
-    z-index: 0;
+    z-index: 1;
 }
 
 .city__h2 {
@@ -208,8 +220,8 @@ color: #86878B;
     text-align: center;
     color: #FFFFFF;
     font-style: normal;
-    padding-top: 14px;
-}
+    padding-top: 14px; 
+}*/
 
 .city__Butten {
     min-width: 270px;
@@ -234,8 +246,7 @@ color: #86878B;
     margin-bottom: 50px;
     box-sizing: border-box;
 }
-
-.city__Butten:hover{
+/* .city__Butten:hover{
     background-color: rgba(0,0,0,0);;
 }
 
@@ -243,6 +254,13 @@ a{
     text-decoration: none;
 }
 
-.city__DownloadDownload {
-    padding-top: 30px;
+.city__Download {
+    padding-top: 30px; */
+
+
+.city {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(/images/image.jpg);
 }
+
