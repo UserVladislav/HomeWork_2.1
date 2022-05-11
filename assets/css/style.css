@@ -261,6 +261,6 @@ a{
 .city {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-image: url(/images/image.jpg);
+    background-image: url(""./images/image.jpg");
 }
 
