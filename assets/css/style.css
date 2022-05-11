@@ -110,7 +110,7 @@ color: #86878B;
     margin: 0 auto;
 }
 
-.section-head_light .section-head__solid {
+.section-head_light .section-head__solid1 {
     color: #FFFFFF;
 }
 
@@ -261,6 +261,6 @@ a{
 .city {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-image: url(""./images/image.jpg");
+    background-image: url("/images/image.jpg");
 }
 
